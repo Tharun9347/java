@@ -1,8 +1,8 @@
-class prime
+class Factors
 {
   public static void main(String args[])
   {
-    int num=27,i=27,count=0;
+    int num=11,i=1,count=0;
     while(i<=num)
     {
       if(num%i==0)
@@ -10,7 +10,7 @@ class prime
         count=count+1;
       }
        
-      i--;
+      i++;
     }
     if(count==2)
     {
