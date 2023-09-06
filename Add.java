@@ -20,7 +20,7 @@ public class Seven_table {
 		  if(i%2==0)
 		  {
 			  System.out.println(n+"*"+i+"="+num);
-			  
+			  system.out.println("helo");
 		  }
 	  }
 
